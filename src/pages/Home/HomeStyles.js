@@ -17,8 +17,10 @@ const UperContainer = styled.div`
 const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 20%;
     width: 100%;
+    margin-top: 10px;
 `
 
 const HeaderText = styled.h2`
@@ -42,21 +44,20 @@ const Title = styled.h1`
 const CenterContainer = styled.div`
     display: flex;
     width: 100%;
-    justify-content: end;
-
-
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
 `
 const ImageContainer = styled.div`
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 100px;
+    /* margin: auto; */
 
 `
 const DescriptionContainer = styled.div`
     display: flex;
     width: 500px;
-    margin-right: 450px;
-    margin-top: 200px;
+    /* margin-right: 450px;
+    margin-top: 200px; */
 `
 
 const DescriptionText = styled.h2`
@@ -72,7 +73,6 @@ const BellowContainer = styled.h2`
     height: 40%;
     width: 100%;
 `
-
 
 
 const HomeStyles = {
