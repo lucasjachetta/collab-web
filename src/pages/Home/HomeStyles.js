@@ -25,7 +25,7 @@ const HeaderContainer = styled.div`
 
 const HeaderText = styled.h2`
     color: ${Colors.WHITE};
-
+    cursor: pointer;
 `
 
 const TitleContainer = styled.div`
@@ -48,6 +48,7 @@ const CenterContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     position: absolute;
+    
 `
 const ImageContainer = styled.div`
     /* margin: auto; */
@@ -72,6 +73,8 @@ const BellowContainer = styled.h2`
     background-color: ${Colors.MEDIUMBLUE};
     height: 40%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 `
 
 

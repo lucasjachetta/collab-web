@@ -1,6 +1,9 @@
 import HomeImage from "../../assets/HomeImage.svg";
-import Logo1 from "../../components/Logo1/Logo1"
+import Logo from "../../components/Logo/Logo";
 import s from "./HomeStyles";
+import { Button } from "../../components/Button/Button";
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <s.MainContainer>
@@ -10,8 +13,11 @@ function Home() {
           <s.HeaderText>Baixar</s.HeaderText>
           <s.HeaderText>Sobre</s.HeaderText>
           <s.HeaderText>Suporte</s.HeaderText>
-          <s.HeaderText>Entre</s.HeaderText>
-          <s.HeaderText>ou cadastre-se</s.HeaderText>
+          
+          <Link to="/login">
+              <Button><h2>Entrar</h2></Button>
+          </Link>
+          
         </s.HeaderContainer>
 
         <s.TitleContainer>
@@ -32,7 +38,11 @@ function Home() {
         </s.CenterContainer>
       </s.UperContainer>
 
-      <s.BellowContainer></s.BellowContainer>
+      <s.BellowContainer>
+        <Link to="/register">
+          <Button variant = 'secondary'><h2>Crie sua Conta</h2></Button>
+        </Link>
+      </s.BellowContainer>
     </s.MainContainer>
   );
 }
