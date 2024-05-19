@@ -1,5 +1,5 @@
 import Home from '../pages/Home/Home'
-import Info from '../pages/Info/Info'
+import Register from '../pages/Register/Register'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const AppRoutes = () => {
@@ -7,7 +7,7 @@ const AppRoutes = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
-                <Route path="/info" element={<Info/>}></Route>
+                <Route path="/register" element={<Register/>}></Route>
             </Routes>
         </Router>
     )
