@@ -6,35 +6,53 @@ const MainContainer = styled.div `
     width: 100vw;
     display: flex;
 `
-
-const InfoContainer = styled.div`
+const PageContainer = styled.div`
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 10%;
-`
-const InfoItem = styled.div`
 
-    height: 100px;
-    width: 400px;
-    background-color: ${Colors.SECONDARY};
+`
+
+const ObjectivesHeader = styled.div`
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: ${Colors.DARKBLUE};
+    font-weight: bold;
+    padding-right: 50px;
+`
+
+const ObjectivesDescription = styled.div`
+    height: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: ${Colors.WHITE};
-    padding: 10px;
-    border-radius: 20px;
+    text-align: center ;
+    color: ${Colors.MEDIUMGRAY};
+    font-weight: bold;
+`
+
+const Objectives = styled.div`
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
 `
 
 
 const HomeStyles = {
     MainContainer,
-    InfoContainer,
-    InfoItem
+    PageContainer,
+    ObjectivesHeader,
+    ObjectivesDescription,
+    Objectives
 
 }
 
