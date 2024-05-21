@@ -23,7 +23,7 @@ function Register() {
                 Ao se cadastrar, você concorda com nossos Termos, Política de Privacidade e Política de Cookies.
               </s.DescriptionContainer>
               <Link to="/">
-                <Button><h3>Cadastrar</h3></Button>
+                <Button onClick={ () => alert("Cadastro realizado com sucesso")}><h3>Cadastrar</h3></Button>
               </Link>
             </s.CenterContainer>
          </s.RightContainer>

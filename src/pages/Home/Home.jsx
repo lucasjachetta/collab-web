@@ -9,7 +9,7 @@ function Home() {
     <s.MainContainer>
       <s.UperContainer>
         <s.HeaderContainer>
-          <Logo1/>
+          <Logo/>
           <s.HeaderText>Baixar</s.HeaderText>
           <s.HeaderText>Sobre</s.HeaderText>
           <s.HeaderText>Suporte</s.HeaderText>
