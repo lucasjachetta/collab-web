@@ -4,6 +4,7 @@ import Login from '../pages/Login/Login'
 import Feed from '../pages/Feed/Feed'
 import ComingSoon from '../pages/ComingSoon/ComingSoon'
 import Info from '../pages/Info/Info'
+import Objectives from '../pages/Objectives/Objectives'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const AppRoutes = () => {
@@ -18,6 +19,7 @@ const AppRoutes = () => {
                 <Route path="/config" element={<ComingSoon/>}></Route>
                 <Route path="/coming-soon" element={<ComingSoon/>}></Route>
                 <Route path="/info" element={<Info/>}></Route>
+                <Route path="/objectives" element={<Objectives/>}></Route>
             </Routes>
         </Router>
     )

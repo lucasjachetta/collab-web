@@ -7,18 +7,18 @@ function Info() {
     <s.MainContainer>
       <SideNav />
       <s.InfoContainer>
-        <Link to="/coming-soon" style={{ textDecoration: 'none' }}>
+        <Link to="/objectives" style={{ textDecoration: 'none' }}>
           <s.InfoItem>
             <h2>Os 17 Objetivos para o Desenvolvimento Sustentável</h2>
           </s.InfoItem>
         </Link>
-        <Link to="/coming-soon" style={{ textDecoration: 'none' }}>
+        <Link to="/donation" style={{ textDecoration: 'none' }}>
           <s.InfoItem>
             <h2>Pontos de doação de alimentos</h2>
           </s.InfoItem>
         </Link>
 
-        <Link to="/coming-soon" style={{ textDecoration: 'none' }}>
+        <Link to="/recycle-points" style={{ textDecoration: 'none' }}>
           <s.InfoItem>
             <h2>Pontos de Coleta Seletiva</h2>
           </s.InfoItem>
